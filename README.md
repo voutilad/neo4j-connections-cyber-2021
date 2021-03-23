@@ -57,7 +57,7 @@ Then run `clear_and_generate` to wipe and populate the database.
 
 ## Installing the Bloom Perspectives
 
-The provided Bloom perspectives (in [./bloom](./cypher)) can be imported[4]
+The provided Bloom perspectives (in [./bloom](./bloom)) can be imported[4]
 very easily. Make sure to import them both.
 
 They contain all the cypher statements used by Bloom, so unless you want to

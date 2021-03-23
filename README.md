@@ -88,9 +88,12 @@ CALL gds.graph.create.cypher("attackPaths",
 ```
 
 ## Footnotes
-> Github typically doesn't render these.
+> Github typically doesn't render these well.
 
 [1] https://github.com/BloodHoundAD/BloodHound
+
 [2] https://ernw.de/download/BloodHoundWorkshop/ERNW_DogWhispererHandbook.pdf
+
 [3] https://github.com/voutilad/BloodHound-Tools/tree/update-to-neo4j4
+
 [4] https://neo4j.com/docs/bloom-user-guide/current/bloom-perspectives/

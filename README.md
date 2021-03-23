@@ -57,17 +57,17 @@ Then run `clear_and_generate` to wipe and populate the database.
 
 ## Installing the Bloom Perspectives
 
-The provided Bloom perspectives (in [./bloom]) can be imported[4] very easily.
-
-Make sure to import them both.
+The provided Bloom perspectives (in [./bloom](./cypher)) can be imported[4]
+very easily. Make sure to import them both.
 
 They contain all the cypher statements used by Bloom, so unless you want to
 try the GDS queries, you're good to explore the graph!
 
 ## The GDS Cypher
 
-I've provided the GDS cypher queries in [./cypher]. However, the one you should
-keep handy is the one to "reset" or initialize the system for giving the demo:
+I've provided the GDS cypher queries in [./cypher](./cypher). However, the one
+you should keep handy is the one to "reset" or initialize the system for giving
+the demo:
 
 ```cypher
 // Attack Path - Prep

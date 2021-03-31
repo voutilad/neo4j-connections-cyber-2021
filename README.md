@@ -1,6 +1,6 @@
 # Neo4j Connections: Graphs for Cybersecurity
 
-Demo as (will be/was) presented on 31 Mar, 2021.
+Demo as presented on 31 Mar, 2021.
 
 ![bloom animation](./bloom.gif?raw=true)
 

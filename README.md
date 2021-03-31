@@ -71,13 +71,6 @@ Then run `clear_and_generate` to wipe and populate the database.
 > NOTE: it will default to the neo4j database until I (or someone else) update
 > the DBCreator.py to support specifying alternative database names!
 
-## Installing the Bloom Perspectives
-
-The provided Bloom perspectives (in [./bloom](./bloom)) can be imported[4]
-very easily. Make sure to import them both.
-
-They contain all the cypher statements used by Bloom, so unless you want to
-try the GDS queries, you're good to explore the graph!
 
 ## The GDS Cypher
 
@@ -103,9 +96,25 @@ CALL gds.graph.create.cypher("attackPaths",
 );
 ```
 
+## Installing the Bloom Perspectives
+
+The provided Bloom perspectives (in [./bloom](./bloom)) can be imported[4]
+very easily. Make sure to import them both.
+
+They contain all the cypher statements used by Bloom, so unless you want to
+try the GDS queries, you're good to explore the graph!
+
+> Make sure that you run the initialization cypher mentioned in the previous
+> section first!
+
+Keep in mind that if you generate your own data, you may need to tweak the
+user accounts used for the queries.
+
 ## Presentation Materials
 
-> TO BE POSTED DURING OR AFTER CONFERENCE!
+Slides are available [here](./Cybersecurity_Connections-2021.pdf).
+
+You can also skip some steps and load this [dump file](./ad-auditing.dump).
 
 ## Footnotes
 > Github typically doesn't render these well.

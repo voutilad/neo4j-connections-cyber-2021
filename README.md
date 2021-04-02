@@ -1,6 +1,6 @@
 # Neo4j Connections: Graphs for Cybersecurity
 
-Demo as presented on 31 Mar, 2021.
+Demo as [presented](https://youtu.be/2O2JfqeHJR4) on 31 Mar, 2021.
 
 ![bloom animation](./bloom.gif?raw=true)
 
@@ -115,6 +115,9 @@ user accounts used for the queries.
 Slides are available [here](./Cybersecurity_Connections-2021.pdf).
 
 You can also skip some steps and load this [dump file](./ad-auditing.dump).
+
+More of a video person? The [recording](https://youtu.be/2O2JfqeHJR4) is
+available on YouTube.
 
 ## Footnotes
 > Github typically doesn't render these well.

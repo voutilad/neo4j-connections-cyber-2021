@@ -18,10 +18,10 @@ Active Directory graph in Neo4j.
 
 Install the following:
 
-- Neo4j 4.2.x
-- Neo4j Graph Data Science Library 1.6
-- Neo4j Bloom 1.5.1
-- APOC (for Neo4j v4.2)
+- Neo4j 4.4.x
+- Neo4j Graph Data Science Library 1.8
+- Neo4j Bloom 2.0 
+- APOC (for Neo4j v4.4)
 
 ### Neo4j Memory Settings
 

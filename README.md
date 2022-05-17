@@ -19,8 +19,8 @@ Active Directory graph in Neo4j.
 Install the following:
 
 - Neo4j 4.4.x
-- Neo4j Graph Data Science Library 1.8
-- Neo4j Bloom 2.0 
+- Neo4j Graph Data Science Library 2.0 or newer
+- Neo4j Bloom 2.0 or newer
 - APOC (for Neo4j v4.4)
 
 ### Neo4j Memory Settings
@@ -70,7 +70,7 @@ RETURN count(*);
 MATCH ()-[r:ATTACK_PATH]->() DELETE r;
 
 // Rebuild projection
-CALL gds.graph.create.cypher("attackPaths", 
+CALL gds.graph.project.cypher("attackPaths",
     "MATCH (n) RETURN id(n) AS id",
     "MATCH (a)-[r]->(b) WHERE type(r) <> 'PATH' AND type(r) <> 'RAW_PATH' " +
     "  AND type(r) <> 'PATH_0' RETURN id(a) AS source, id(b) AS target"

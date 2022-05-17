@@ -5,8 +5,8 @@ WITH id(crownJewel) AS crownJewelId
 MATCH (n) WHERE n.highvalue IS NULL
 WITH id(n) AS sourceId, crownJewelId
 
-CALL gds.shortestPath.dijkstra.stream("attackPaths", {
-    sourceNode: sourceId, 
+CALL gds.shortestPath.dijkstra.stream("raw-paths", {
+    sourceNode: sourceId,
     targetNode: crownJewelId
 }) YIELD sourceNode, targetNode, nodeIds
 
